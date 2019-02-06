@@ -18,6 +18,8 @@ brew install tig
 brew install jq
 brew install vim # update default vim
 brew install lastpass-cli
+brew install redis
+brew install chruby
 
 wget https://raw.githubusercontent.com/jamesjoshuahill/lastpass-ssh-key/master/load -O ~/bin/load-ssh-key
 sed -i.bak 's/Josh/Denise/' ~/bin/load-ssh-key
@@ -26,6 +28,7 @@ chmod +x ~/bin/load-ssh-key
 
 # languages
 wget https://dl.google.com/go/go1.11.5.darwin-amd64.pkg
+gem install bundler
 
 # install bash_it & luanvim
 git clone --depth=1 https://github.com/Bash-it/bash-it.git ~/.bash_it
